@@ -1,65 +1,14 @@
 {
-    "// EM Template repo": "https://github.com/vanderbilt-redcap/external_module_template",
-    "// framework documentation README": "https://github.com/vanderbilt-redcap/external-module-framework-docs/tree/main?tab=readme-ov-file#redcap-external-module-framework-documentation",
-    "name": "external_module_template",
-    "description": "module description",
-    "namespace": "ExternalModuleTemplate\\ExternalModule",
+    "name": "Disabled Module",
+    "description": "This module was intentionaly disabled due to a found security vulnerability and lack of responsible party to adress such issues. If you would like to take responsibility for maintaining this module, and addressing any known security issues please reach out to datacore@vumc.org.",
+    "namespace": "Vanderbilt\\SecurityDisabledModule",
     "documentation": "README.md",
-    "// framework version documentation": "https://github.com/vanderbilt-redcap/external-module-framework-docs/tree/main/versions",
-    "framework-version": 16,
+    "framework-version": 12,
     "authors": [
         {
-            "name": "M. Commodore",
+            "name": "Datacore Team",
             "email": "datacore@vumc.org",
             "institution": "Vanderbilt University Medical Center"
         }
-    ],
-    "// configuration documentation": "https://github.com/vanderbilt-redcap/external-module-framework-docs/blob/main/config.md",
-    "system-settings": [
-        {
-            "name": "A medium length description of the field",
-            "key": "description_system_setting",
-            "type": "descriptive"
-        },
-        {
-            "name": "System Setting",
-            "key": "system_setting",
-            "type": "text"
-        }
-    ],
-    "project-settings": [
-        {
-            "name": "Project Setting",
-            "key": "project_setting",
-            "type": "text",
-            "hidden": true
-        }
-    ],
-    "// pages documentation": "https://github.com/vanderbilt-redcap/external-module-framework-docs/blob/main/pages.md",
-    "links": {
-        "project": [
-            {
-                "name": "Project Page",
-                "icon": "fa fa-cloud-arrow-up",
-                "url": "pages/project_page.php",
-                "show-header-and-footer": true
-            }
-        ]
-    },
-    "// crons documentation": "https://github.com/vanderbilt-redcap/external-module-framework-docs/blob/main/crons.md",
-    "crons": [
-        {
-            "cron_name": "cron1",
-            "cron_description": "Cron that runs every 30 minutes to do X",
-            "method": "myCronFunction",
-            "cron_frequency": "1800",
-            "cron_max_run_time": "86400"
-        }
-    ],
-    "// ajax documentation": "https://github.com/vanderbilt-redcap/external-module-framework-docs/blob/main/ajax.md",
-    "auth-ajax-actions": [
-        "action1"
-    ],
-    "// compatibility documentation": "https://github.com/vanderbilt-redcap/external-module-framework-docs/blob/main/compatibility.md",
-    "compatibility": {}
+    ]
 }
