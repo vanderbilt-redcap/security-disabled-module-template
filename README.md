@@ -1,2 +1,2 @@
 # Disabled Module
-This module was intentionaly disabled due to a found security vulnerability and lack of responsible party to adress such issues. If you owuld like to take responsibility for maintaining this module please reach out to datacore@vumc.org.
+This module was intentionaly disabled due to a found security vulnerability and lack of responsible party to adress such issues. If you would like to take responsibility for maintaining this module, and addressing any known security issues please reach out to redcap-external-module-framework@vumc.org.

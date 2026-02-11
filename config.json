@@ -1,13 +1,13 @@
 {
     "name": "Disabled Module",
-    "description": "This module was intentionaly disabled due to a found security vulnerability and lack of responsible party to adress such issues. If you would like to take responsibility for maintaining this module, and addressing any known security issues please reach out to datacore@vumc.org.",
+    "description": "This module was intentionaly disabled due to a found security vulnerability and lack of responsible party to adress such issues. If you would like to take responsibility for maintaining this module, and addressing any known security issues please reach out to redcap-external-module-framework@vumc.org.",
     "namespace": "Vanderbilt\\SecurityDisabledModule",
     "documentation": "README.md",
     "framework-version": 12,
     "authors": [
         {
-            "name": "Datacore Team",
-            "email": "datacore@vumc.org",
+            "name": "External Module Team",
+            "email": "redcap-external-module-framework@vumc.org",
             "institution": "Vanderbilt University Medical Center"
         }
     ]
