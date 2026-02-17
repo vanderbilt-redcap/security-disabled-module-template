@@ -1,7 +1,7 @@
 {
-    "name": "Disabled Module",
+    "name": "Address Autocompletion - Disabled",
     "description": "This module was intentionally disabled due to a found security vulnerability and lack of responsible party to address such issues. If you would like to take responsibility for maintaining this module, and addressing any known security issues please reach out to redcap-external-module-framework@vumc.org.",
-    "namespace": "Vanderbilt\\SecurityDisabledModule",
+    "namespace": "Vanderbilt\\AddressExternalModule",
     "documentation": "README.md",
     "framework-version": 12,
     "authors": [

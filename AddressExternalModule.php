@@ -1,11 +1,11 @@
 <?php
 
-namespace Vanderbilt\SecurityDisabledModule;
+namespace Vanderbilt\AddressExternalModule;
 
 use ExternalModules\AbstractExternalModule;
 use REDCap;
 
-class SecurityDisabledModule extends AbstractExternalModule
+class AddressExternalModule extends AbstractExternalModule
 {
 	public function redcap_every_page_top($project_id) {
 		if ($project_id && PAGE !== "surveys/index.php") {
